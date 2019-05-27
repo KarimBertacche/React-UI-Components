@@ -43,6 +43,10 @@
 .card-link {
     /* margin-top: -15px;
     margin-bottom: 20px; */
-    color: #bec6ce;
+    color: #a1a8af;
     text-decoration: none;
+}
+
+.card-link:hover {
+    color: #000;
 }

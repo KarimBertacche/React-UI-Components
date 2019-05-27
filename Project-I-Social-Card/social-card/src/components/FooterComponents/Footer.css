@@ -1,6 +1,10 @@
 .material-icons {
-    color: #000;
+    color: #a1a8af;
     margin-right: 20px;
+}
+
+.material-icons:hover {
+    color: #000;
 }
 
 .first-icon {

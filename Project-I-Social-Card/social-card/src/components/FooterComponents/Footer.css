@@ -27,3 +27,20 @@
     color: #000;
 }
 
+.red {
+    color: red;
+}
+
+.white {
+    color: #fff;
+}
+
+.rotate {
+    transform: rotate(360deg);
+    transition: all .5s;
+}
+
+.move {
+    transform: translateY(-5px); 
+}
+

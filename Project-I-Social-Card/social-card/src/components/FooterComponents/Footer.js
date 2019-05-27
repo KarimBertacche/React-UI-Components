@@ -1,12 +1,24 @@
 import React from 'react';
 import './Footer.css';
 import FooterIcons from './FooterContent.jsx';
+import { isContext } from 'vm';
 
 const Footer = () => {
 
     const clickEventHandler = event => {
         event.preventDefault();
-        console.log('I was clicked');
+        const icons = document.querySelectorAll('.material-icons');
+        icons.forEach((icon) => {
+            if(event.target.textContent === 'favorite_border'){
+                icon.classList.toggle('red');
+            } else if(event.target.textContent === 'mode_comment'){
+                icon.classList.toggle('white');
+            } else if(event.target.textContent === 'sync'){
+                icon.classList.toggle('rotate');
+            } else if(event.target.textContent === 'mail_outline'){
+                icon.classList.toggle('move');
+            }
+        });     
     };
 
     return(

@@ -24,3 +24,9 @@ header {
     padding-left: 15px;
     padding-right: 5px;
 }
+
+.Lambda,
+.date {
+    color: #bec6ce;
+    font-weight: lighter;
+}

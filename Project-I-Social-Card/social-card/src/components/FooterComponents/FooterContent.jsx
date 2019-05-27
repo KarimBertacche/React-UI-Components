@@ -3,9 +3,12 @@ import './Footer.css';
 
 const FooterIcons = props => {
     return (
-        <a href="#">
-            <i className={`medium material-icons ${props.class}`}>{props.type} {props.num}</i>
-        </a> 
+        <div>
+            <span className="num">{props.num}</span>     
+            <a href="#">
+                <i onClick={props.clicked} className={`medium material-icons ${props.class}`}>{props.type}</i>
+            </a> 
+        </div>
     );  
 };
 

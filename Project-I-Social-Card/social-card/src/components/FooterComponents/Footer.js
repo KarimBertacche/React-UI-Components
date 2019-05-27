@@ -3,15 +3,18 @@ import './Footer.css';
 import FooterIcons from './FooterContent.jsx';
 
 const Footer = () => {
-    return(
-        <div> 
-           <FooterIcons onClick={event => {
+
+    const clickEventHandler = event => {
         event.preventDefault();
         console.log('I was clicked');
-    }} class="first-icon" type="mode_comment"/>
-           <FooterIcons type="sync" num="4"></FooterIcons>
-           <FooterIcons type="favorite_border" num="6"/>    
-           <FooterIcons type="mail_outline"/>
+    };
+
+    return(
+        <div className="icon-box"> 
+           <FooterIcons clicked={clickEventHandler} class="first-icon" type="mode_comment"/>
+           <FooterIcons clicked={clickEventHandler} type="sync" num="4"/>
+           <FooterIcons clicked={clickEventHandler} type="favorite_border" num="6"/>    
+           <FooterIcons clicked={clickEventHandler} type="mail_outline"/>
         </div>
     );
 };

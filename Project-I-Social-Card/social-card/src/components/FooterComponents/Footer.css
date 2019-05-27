@@ -1,6 +1,12 @@
+.icon-box {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
 .material-icons {
     color: #a1a8af;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .material-icons:hover {
@@ -8,7 +14,16 @@
 }
 
 .first-icon {
-    margin-right: 50px; 
-    margin-left: 80px;
+    margin-right: 30px; 
+    margin-left: 90px;
+}
+
+.num {
+    color: #a1a8af;
+    font-size: 2rem;
+}
+
+.num:hover {
+    color: #000;
 }
 

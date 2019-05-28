@@ -5,7 +5,7 @@ import Display from './Display';
 const CalculatorDisplay = props => {
     return (
         <div>
-            <Display />
+            <Display tot={props.tot}/>
         </div>
     );
 };

@@ -7,7 +7,7 @@ const ActionButton = props => {
     }
 
     return (
-        <button className="action-btn" style={bold}>{props.content}</button>
+        <button onClick={props.clicked} className="action-btn" style={bold}>{props.content}</button>
     );
 };
 

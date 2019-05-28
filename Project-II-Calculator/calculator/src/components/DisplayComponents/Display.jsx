@@ -2,7 +2,7 @@ import React from 'react';
 import './Display.css';
 
 const Display = props => {
-    return <div className="display">0</div>
+    return <div className="display">{props.tot}</div>
 }
 
 export default Display;

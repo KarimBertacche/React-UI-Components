@@ -5,6 +5,7 @@ import './Button.css';
 const OperatorButton = props => {
     
     const bgColor = {
+        backgroundColor: `${props.bgColor}`,
         color: `${props.color}`
     }
     return <button className="calc-btn" style={bgColor}>{props.content}</button>

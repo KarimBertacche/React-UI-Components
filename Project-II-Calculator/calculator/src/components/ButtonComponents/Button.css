@@ -1,0 +1,26 @@
+.btn-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.action-btn {
+    width: 336px;
+    height: 95px;
+    border: 2px solid #000;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+.calc-btn {
+    width: 120px;
+    height: 95px;
+    border: 2px solid #000;
+}
+
+.num-btn {
+    width: 112px;
+    height: 95px;
+    border: 2px solid #000;
+}

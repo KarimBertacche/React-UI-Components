@@ -1,0 +1,46 @@
+.icon-box {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.material-icons {
+    color: #a1a8af;
+    margin-right: 30px;
+}
+
+.material-icons:hover {
+    color: #000;
+}
+
+.first-icon {
+    margin-right: 30px; 
+    margin-left: 90px;
+}
+
+.num {
+    color: #a1a8af;
+    font-size: 2rem;
+}
+
+.num:hover {
+    color: #000;
+}
+
+.red {
+    color: red;
+}
+
+.white {
+    color: #fff;
+}
+
+.rotate {
+    transform: rotate(360deg);
+    transition: all .5s;
+}
+
+.move {
+    transform: translateY(-5px); 
+}
+

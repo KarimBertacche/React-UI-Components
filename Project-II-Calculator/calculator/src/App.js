@@ -11,10 +11,6 @@ const App = () => {
     updatedTotal(0); 
   }
 
-  const calculate = (calc) => {
-    return new Function(`return ${calc}`)();
-  }
-
   const displayedValue = (event) => {
     let inputValue = event.target.textContent;
 
@@ -31,7 +27,7 @@ const App = () => {
     }
 
     if(inputValue === '=') {
-      return updatedTotal(calculate(total));
+      return updatedTotal(eval(total));
     }
 
     return updatedTotal(total + inputValue);
